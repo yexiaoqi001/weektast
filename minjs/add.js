@@ -1,0 +1,1 @@
+for(var arr=[2,6,3,10,2,3,8,10],newArr=[],i=0,len=arr.length;i<len;i++)-1==newArr.indexOf(arr[i])&&newArr.push(arr[i]);console.log(newArr);for(var againArr=[3,6,1,5,6,3,9],againNewArr=[],i=-1;i<againArr.length-1;)i++,-1==againNewArr.indexOf(againArr[i])&&againNewArr.push(againArr[i]);console.log(againNewArr);
